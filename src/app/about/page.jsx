@@ -7,7 +7,7 @@ export default function AboutPage() {
                 <div className="aboutInfo">
                     <h1>About Me</h1>
                     <p>
-                        Dreaming big, I'm all about creating impactful services for schools, brands, and companies.
+                        Dreaming big, I&#39;m all about creating impactful services for schools, brands, and companies.
                     </p>
                 </div>
             </div>
@@ -19,7 +19,7 @@ export default function AboutPage() {
                 </div>
                 <div className="about-introText">
                     <p className="lowText">
-                        I'm David Okoye UI designer and full-stack developer from Nigeria,
+                        I&#39;m David Okoye UI designer and full-stack developer from Nigeria,
                         I am  in the business of coding and making of stellar digital experiences.
                     </p>
                 </div>

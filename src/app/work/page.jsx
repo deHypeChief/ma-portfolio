@@ -7,7 +7,7 @@ export default function WorkPage() {
                 <div className="workInfo">
                     <h1>My Projects</h1>
                     <p>
-                        Dreaming big, I'm all about creating impactful services for schools, brands, and companies.
+                        Dreaming big, I&#39;m all about creating impactful services for schools, brands, and companies.
                     </p>
                 </div>
             </div>

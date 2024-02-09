@@ -52,10 +52,10 @@ function HomeContent(){
         </div>
         <div className="introText">
           <p >
-            Dreaming big, I'm all about creating impactful services for schools, brands, and companies.
+            Dreaming big, I&#39;m all about creating impactful services for schools, brands, and companies.
           </p>
           <p className="lowText">
-            I'm David Okoye UI designer and full-stack developer from Nigeria,
+            I&#39;m David Okoye UI designer and full-stack developer from Nigeria,
             I am  in the business of coding and making of stellar digital experiences.
           </p>
         </div>
@@ -65,7 +65,7 @@ function HomeContent(){
         <h3>Tech Stack</h3>
         <div className="impactList">
           <p >
-            Dreaming big, I'm all about creating impactful services for schools, brands, and companies.
+            Dreaming big, I&#39;m all about creating impactful services for schools, brands, and companies.
           </p>
           <div className="expList">
             <div className="exp">
@@ -92,7 +92,7 @@ function HomeContent(){
                 Reu <br /> sme
               </h2>
               <p >
-                Dreaming big, I'm all about creating impactful services for schools, brands, and companies.
+                Dreaming big, I&#39;m all about creating impactful services for schools, brands, and companies.
               </p>
 
               <Button>Download</Button>
@@ -171,7 +171,7 @@ function HomeContent(){
               <h2>Project Name</h2>
               <p className='pType'>Work Type</p>
               <p>
-                Dreaming big, I'm all about creating impactful services for schools, brands, and companies.
+                Dreaming big, I&#39;m all about creating impactful services for schools, brands, and companies.
               </p>
             </div>
             <div className="pButton">

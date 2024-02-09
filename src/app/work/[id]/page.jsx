@@ -35,7 +35,7 @@ export default function SingleWorkPage() {
 
                     <div className="workStart">
                         <p className="lowText">
-                            I'm David Okoye UI designer and full-stack developer from Nigeria,
+                            I&#39;m David Okoye UI designer and full-stack developer from Nigeria,
                             I am  in the business of coding and making of stellar digital experiences.
                         </p>
                     </div>
