@@ -1,0 +1,111 @@
+.projectIntro{
+    padding: var(--padding-sides);
+    position: relative;
+    min-height: 70vh;
+}
+.project_IntroInfo{
+    position: absolute;
+    bottom:0;
+}
+.project_IntroInfo h1{
+    text-align: left;
+    font-size: 7rem;
+    padding-bottom: 50px;
+}
+.project_IntroInfo p{
+    color: var(--color-main);
+    margin-bottom: -20px;
+}
+
+
+.workIntro{
+    padding: var(--padding-sides);
+    padding-top: 120px;
+    padding-bottom: 100px;
+}
+.introDisplay{
+    height:480px;
+}
+.displayBox{
+    height: 100%;
+    background: white;
+    width:100%;
+}
+
+.workInfo_Section{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 100px;
+}
+
+.deBox{
+    padding-bottom: 30px;
+}
+.deTitle{
+    font-size: 18px;
+    opacity: .6;
+    font-family: SubFont;
+}
+.deSub{
+    font-size: 25px;
+    font-family: MainFont;
+    font-weight: 300;
+}
+
+
+/* Grid */
+.quickGrid{
+    padding: var(--padding-sides);
+    display: grid;
+    grid-template-areas: 
+    'aaa aaa bbb bbb bbb'
+    'aaa aaa ccc ccc ccc'
+    'ddd ddd ccc ccc ccc';
+    gap: 30px;
+    margin-bottom: 150px;
+}
+
+.workBox{
+    background: red;
+    height: 500px;
+    width: 100%;
+}
+.workBox:nth-child(1){
+    grid-area: aaa;
+    height: 100%;
+}
+.workBox:nth-child(2){
+    grid-area: bbb;
+    height: 300px;
+}
+.workBox:nth-child(3){
+    grid-area: ccc;
+}
+.workBox:nth-child(4){
+    grid-area: ddd;
+    height: 260px;
+}
+
+
+
+.nextProject{
+    padding: var(--padding-sides);
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+.nextId_Bg{
+    background: red;
+    display: flex;
+    justify-content: center;
+    height:500px;
+    width: 90%;
+    align-items: center;
+}
+.nextProjectInfo{
+text-align: center;
+}
+.nextProjectInfo h1{
+    font-size: 4rem;
+    margin-bottom: 20px;
+}

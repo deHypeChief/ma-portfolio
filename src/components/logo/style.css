@@ -1,0 +1,18 @@
+.logo{
+    display: flex;
+    gap: 8px;
+}
+
+.logo_Left, 
+.logo_Right{
+    height: 20px;
+    width: 20px;
+}
+
+.l, 
+.r{
+    height: 100%;
+    width: 100%;
+    background: white;
+    border-radius: 6px;
+}

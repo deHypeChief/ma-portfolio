@@ -1,0 +1,50 @@
+footer{
+    background: var(--color-main);
+    padding: var(--padding-sides);
+    padding-top: 80px;
+    padding-bottom: 50px;
+    color: var(--color-alt);
+    width: 100%;
+}
+
+.fText{
+    text-align: center;
+}
+.fText h2{
+    margin-bottom: -20px;
+    font-weight: 300;
+}
+.fButton{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin: 30px 0 80px;
+}
+
+.fBottom{
+    display: flex;
+    justify-content: space-between;
+}
+.fLine{
+    padding: 2px 0;
+    margin-bottom: 50px;
+    width: 100%;
+    background: black;
+}
+.fSocial{
+    display: flex;
+    gap: 20px;
+}
+
+
+.fRight_Box{
+    text-align: right;
+}
+.fBold{
+    font-size: 20px;
+    font-family: MainFont;
+}
+.fSub{
+    font-size: 18px;
+    font-weight: 500;
+}

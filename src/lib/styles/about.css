@@ -1,0 +1,46 @@
+.aboutHero {
+    padding: var(--padding-sides);
+    position: relative;
+    min-height: 70vh;  
+}
+
+.aboutInfo {
+    position: absolute;
+    bottom: 0;
+}
+.aboutInfo h1 {
+    text-align: left;
+    font-size: 7rem;
+    margin-bottom: 30px;
+}
+
+/* intro */
+.about-intro{
+    padding: 100px 0 100px;
+}
+.about-introDisplay{
+    transition: 0.3s ease-in-out;
+    height:480px;
+    padding: var(--padding-sides);
+}
+.about-introDisplay:hover{
+    transition: 0.6s ease;
+    padding: 0;
+    height:550px;
+}
+.about-displayBox{
+    height: 100%;
+    background: white;
+    width:100%;
+}
+.about-introText{
+    padding: var(--padding-sides);
+    display: flex;
+    justify-content: space-between;
+    padding-top: 160px;
+}
+.about-introText p{
+    font-size: 5rem;
+    line-height: 80px;
+    max-width: initial;
+}

@@ -1,0 +1,19 @@
+nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: var(--padding-sides);
+    padding-top: 20px;
+    z-index: var(--navIndex);
+}
+.navWrap{
+    display:flex;
+    justify-content: space-between;
+}
+.links{
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}

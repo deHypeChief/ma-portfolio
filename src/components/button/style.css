@@ -1,0 +1,13 @@
+button{
+    border: none;
+    padding: 20px 55px;
+    color: var(--color-text);
+    border-radius: 1000px;
+    background: var(--color-alt);
+    font-size: 18px;
+}
+
+.altButton{
+    background: white;
+    color: black;
+}
