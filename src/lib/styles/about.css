@@ -44,3 +44,24 @@
     line-height: 80px;
     max-width: initial;
 }
+
+
+
+@media screen and (max-width: 600px) {
+    .aboutInfo h1 {
+        font-size: 4rem;
+    }
+    .about-introText p {
+        font-size: 2rem;
+        line-height: 40px;
+    }
+    .about-introText {
+        padding-top: 60px;
+    }
+    .about-intro {
+        padding: 70px 0 100px;
+    }
+    .about-introDisplay:hover {
+        height: 370px;
+    }
+}

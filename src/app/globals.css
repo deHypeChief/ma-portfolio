@@ -54,7 +54,8 @@ p{
 h1{
     font-family: MainFont;
     font-weight: 500;
-    font-size: 13.35rem;
+    /* font-size: 13.35rem; */
+    font-size: clamp(1rem, 15.6vw, 20rem);
     text-align: center;
 }
 h2{
@@ -97,4 +98,14 @@ img{
     position: absolute;
     transform: translateY(130px) translateX(-80px);
     opacity: 0.2;
+}
+
+
+@media screen and (max-width: 600px) {
+    :root{    
+        --padding-sides: 0px 30px;
+    }
+    h1{
+        font-size: clamp(1rem, 15vw, 20rem);
+    }
 }

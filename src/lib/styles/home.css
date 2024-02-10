@@ -1,53 +1,62 @@
-.hero{
+.hero {
     position: relative;
 }
-.heroWrap{
+
+.heroWrap {
     height: 100vh;
     width: 100%;
     display: flex;
     align-items: flex-end;
 }
 
-.heroStrap{
+.heroStrap {
     display: flex;
     justify-content: center;
     width: 100%;
     position: relative
 }
-.heroImg{
+
+.heroImg {
     height: 100vh;
     width: 500px;
-    overflow:hidden;
+    overflow: hidden;
     position: absolute;
     bottom: 0;
 }
-.heroImg img{
+
+.heroImg img {
     transform: translateY(20px) translateX(-10px);
 }
-.orangeLine{
+
+.orangeLine {
     height: 100vh;
     width: 400px;
     background: var(--color-main);
 }
-.heroText{
+
+.heroText {
     position: absolute;
     background: linear-gradient(transparent 5%, rgba(0, 0, 0, 0.83) 40%, black);
     width: 100%;
     padding: var(--padding-sides);
 }
-.heroText{
+
+.heroText {
     padding-bottom: 30px;
 }
-.heroIcons{
+
+.heroIcons {
     padding-top: 50px;
     display: flex;
     gap: 10px;
     justify-content: right;
 }
-.subtext{
+
+.subtext {
     margin-top: -50px;
 }
-.boxIcons{
+
+.boxIcons {
     background: white;
     height: 25px;
     width: 25px;
@@ -55,25 +64,29 @@
 
 
 /* intro */
-.intro{
+.intro {
     padding: 100px 0 100px;
 }
-.introDisplay{
+
+.introDisplay {
     transition: 0.3s ease-in-out;
-    height:480px;
+    height: 480px;
     padding: var(--padding-sides);
 }
-.introDisplay:hover{
+
+.introDisplay:hover {
     transition: 0.6s ease;
     padding: 0;
-    height:550px;
+    height: 550px;
 }
-.displayBox{
+
+.displayBox {
     height: 100%;
     background: white;
-    width:100%;
+    width: 100%;
 }
-.introText{
+
+.introText {
     padding: var(--padding-sides);
     display: flex;
     justify-content: space-between;
@@ -81,88 +94,107 @@
 }
 
 /* techStack */
-.techStack{
+.techStack {
     padding-top: 50px;
     padding-bottom: 100px;
 }
-.impactList{
+
+.impactList {
     padding: var(--padding-sides);
     display: flex;
     justify-content: space-between;
 }
-.expList{
+
+.expList {
     display: flex;
     gap: 60px;
 }
-.exp h2{
+
+.exp h2 {
     font-family: StyleFont;
     font-size: 6rem;
     margin-top: -50px;
 }
-.exp:nth-child(1) h2{
+
+.exp:nth-child(1) h2 {
     color: var(--green);
 }
-.exp:nth-child(2) h2{
+
+.exp:nth-child(2) h2 {
     color: var(--yellow);
 }
-.exp:nth-child(3) h2{
+
+.exp:nth-child(3) h2 {
     color: var(--purple);
 }
-.skillsGrid{
+
+.skillsGrid {
     margin-top: 100px;
     display: grid;
     padding: var(--padding-sides);
     gap: 20px;
     justify-content: space-between;
     grid-template-areas: 'res aaa bbb'
-                         'res ccc ddd';
+        'res ccc ddd';
 }
-.skillBox{
+
+.skillBox {
     height: 420px;
     width: 380px;
     background: red;
 }
-.skillBox:nth-child(1){
+
+.skillBox:nth-child(1) {
     height: 100%;
     grid-area: res;
     background: var(--color-main);
 }
-.skillBox:nth-child(2){
+
+.skillBox:nth-child(2) {
     grid-area: aaa;
     background: var(--green);
 }
-.skillBox:nth-child(3){
+
+.skillBox:nth-child(3) {
     grid-area: bbb;
     background: #FF9800;
 }
-.skillBox:nth-child(4){
+
+.skillBox:nth-child(4) {
     grid-area: ccc;
     background: #FFF27D;
 }
-.skillBox:nth-child(5){
+
+.skillBox:nth-child(5) {
     grid-area: ddd;
     background: #FFC700;
 }
 
-.resText{
+.resText {
     padding: 100px 30px;
 }
-.resTop, .resBig{
+
+.resTop,
+.resBig {
     font-family: StyleFont;
 }
-.resTop{
+
+.resTop {
     color: white;
     padding-bottom: 70px;
 }
-.resBig{
+
+.resBig {
     font-size: 5rem;
     line-height: 70px;
     padding-bottom: 40px;
 }
-.resText p{
+
+.resText p {
     padding-bottom: 60px;
 }
-.skillText{
+
+.skillText {
     padding: 50px;
     color: black;
     display: flex;
@@ -172,33 +204,130 @@
 
 
 /* banner */
-.bannerText h2{
+.bannerText h2 {
     font-family: StyleFont;
 }
 
 /*  projects */
-.projects{
+.projects {
     padding-bottom: 100px;
     padding-top: 50px;
 }
-.projectBox{
+
+.projectBox {
     padding: var(--padding-sides);
 }
-.pInfo{
+
+.pInfo {
     display: flex;
     justify-content: space-between;
 }
-.pleft h2{
+
+.pleft h2 {
     font-size: 4rem;
     font-weight: 300;
 }
-.pType{
+
+.pType {
     padding-bottom: 40px;
     opacity: .3;
 }
-    
-.pBox{
+
+.pBox {
     height: 550px;
     margin-bottom: 80px;
     background: var(--color-main);
+}
+
+@media screen and (max-width: 600px) {
+    .hero{
+        overflow: hidden;
+    }
+    .introText {
+        display: flex;
+        justify-content: initial;
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .impactList {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .exp h2 {
+        font-size: 4rem;
+        margin-top: 30px;
+    }
+
+    .expList {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+
+    .skillsGrid {
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .skillBox {
+        width: 100%;
+    }
+
+    .skillText {
+        padding: 50px 24px 26px;
+        color: black;
+        display: flex;
+        flex-direction: column;
+        gap: 150px;
+    }
+
+    .pInfo {
+        display: block;
+        justify-content: space-between;
+    }
+
+    .pBox {
+        height: 400px;
+        margin-bottom: 39px;
+    }
+
+    .pleft {
+        margin-bottom: 30px;
+    }
+
+    .pleft h2 {
+        font-size: 3rem;
+    }
+
+    .pButton button {
+        width: 100%;
+    }
+
+    .subtext {
+        margin-top: 10px;
+    }
+    .orangeLine {
+        width: 260px;
+        transform: translateY(-30px);
+    }
+    .heroImg img {
+        transform: translateY(60px) translateX(-10px);
+    }
+    .heroText {
+        background: linear-gradient(transparent 5%, rgba(0, 0, 0, 0.83) 30%, black);
+    }
+    .bannerText h2 {
+        font-family: StyleFont;
+        font-size: 3rem;
+        padding-bottom: 50px;
+    }
+    .HypeText {
+        font-size: 10rem;
+    }
+    .heroIcons {
+        justify-content: left;
+    }
 }
